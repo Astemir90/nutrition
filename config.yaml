@@ -1,0 +1,10 @@
+seed: 42
+epochs: 10
+batch_size: 16
+lr: 0.001
+target_mae: 50
+model_save_path: 'model/model.pth'
+
+paths:
+  csv_path: 'data/dataset.csv'
+  img_dir: 'data/images'
